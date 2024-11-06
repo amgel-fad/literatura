@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    background: black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+nav h1{
+    position: sticky;
+}
+
+.sticky{
+    display: flex;
+    position: sticky;
+    top: -20px;
+}
+
+body {
+    background-color:#00416A;
+    display: grid;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.img_cortazar{
+    background: url(Julio-Cortazar-en-Paris_Instagram-CronopiosYFama.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: black solid 3px;
+    display: grid;
+    border-radius: 10px;
+    padding: 0;
+    width: 40%;
+    height: 36svh;
+}
+
+.img_cortazar img{
+    border-radius: 10px;
+    margin: 0;
+}
+
+li, ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: bolder;
+}
+
+h1 {
+
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin: auto;
+    position: sticky;
+    top: 0; 
+    background-color: black;
+}
+.tramo {
+    background-color: #004792;
+    width: 100%;
+text-align: center;
+color: #004792;
+inline-size: auto ;
+padding: 7px;
+
+}
+
+.text00 {
+
+    align-content: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+.text00 h2{
+    color: white;
+    text-align: center;
+}
+
+
+
+.texto0 {
+text-align: center;
+font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color:white;
+    font-size: 25px;
+}
+
+
+
+.texto1{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color:white;
+    margin-left: 30px;
+    padding: 10px;
+}
+li {
+    padding: 15px;
+}
+a {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+    margin-left: 200px;
+}
+.marco {
+display: flex;
+}
+
+
+
+
+
+.bloque {
+
+    background: url(https://dcdn.mitiendanube.com/stores/001/154/834/products/julio1-8ade6bbf130c5d700f15872395458397-1024-1024.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 25svh;
+    z-index: 3;
+}
+
+
+.texto2 {
+    
+    font-size: 30px;
+    color:white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+}
+
+.relleno{
+    width: 20%;
+    position: absolute;
+    color: white;
+    margin-top: 2%;
+}
+
+.relleno img{
+    width: 100%;
+}
+
+.Documento{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(10rem), 1fr));
+    margin: auto;
+    justify-content:left;
+    justify-self: left;
+    align-items: center;
+}
+
+.Center{
+    justify-content: left;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.item_doc{
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    left: 0;
+}
+
+.item_doc img{
+    width: 23svh;
+}
+
+.item_doc img:hover{
+    transition: 0.8s;
+
+    translate: 0 -15px;
+    box-shadow: 0 0 20px 2px white;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+}
+
+.bloque2{
+    background-color:#004792 ;
+    position: sticky;
+    top: 0; 
+}
+
+
+.bloque2 {
+    background-color: #004792;
+    text-align: center;
+
+}
+
+
+
+.textofijado{
+    background-color: #004792;
+    font-size: 30px;
+    color:white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.xd {
+    background-color: #004792;
+    font-size: 30px;
+    width: 60px;
+    color: #004792;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-bottom: 40px;
+}
+.final{
+    font-size: 50%;
+}
+
+
+/*
+.bloque {
+
+    background: url(https://dcdn.mitiendanube.com/stores/001/154/834/products/julio1-8ade6bbf130c5d700f15872395458397-1024-1024.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 25svh;
+    filter: brightness();
+    
+}*/
